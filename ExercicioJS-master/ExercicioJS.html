@@ -39,11 +39,15 @@
     function exibirInnerHTML() {
         let paragrafo = document.getElementById("paragrafo").innerText;
         console.log(paragrafo);
-        let p = document.getElementsByTagName("p").innerText;
-        let strong = document.getElementsByTagName("strong").innerText;
+        let p = document.getElementsByTagName("p").paragrafo.innerHTML;
+        let strong = document.getElementsByTagName("strong")[0].textContent;
+
+        // for (let i = 0; i < 5; i++) {
+        //     strongArray = document.getElementsByTagName("strong")[i].textContent;
+        //     console.log(strong[i].innerHTML);
+        // }
         let li = document.getElementsById("item").innerText;
         return console.log(p);
-        return console.log(strong);
         return console.log(li);
     }
 </script>
